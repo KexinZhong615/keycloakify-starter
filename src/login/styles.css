@@ -1,0 +1,18 @@
+.pf-c-button.pf-m-primary {
+    color: var(--pf-c-button--m-primary--Color);
+    background-color: #F2D971;
+}
+
+a {
+    color: #F2D971;
+    text-decoration: none;
+}
+
+.card-pf {
+    margin: 0 auto;
+    box-shadow: var(--pf-global--BoxShadow--lg);
+    padding: 0 20px;
+    max-width: 500px;
+    border-top: 4px solid;
+    border-color: #F2D971;
+}

@@ -7,6 +7,7 @@ import { useSetClassName } from "keycloakify/tools/useSetClassName";
 import { useInitialize } from "keycloakify/login/Template.useInitialize";
 import type { I18n } from "./i18n";
 import type { KcContext } from "./KcContext";
+import './styles.css'
 
 export default function Template(props: TemplateProps<KcContext, I18n>) {
     const {
@@ -56,7 +57,7 @@ export default function Template(props: TemplateProps<KcContext, I18n>) {
         <div id="kc-header" className={kcClsx("kcHeaderClass")}>
             <div id="kc-header-wrapper" className={kcClsx("kcHeaderWrapperClass")}>
                 {/*{msg("loginTitleHtml", realm.displayNameHtml)}*/}
-                <img src={`${import.meta.env.BASE_URL}img/e4u-logo.svg`} width={500}/>
+                <img src={`${import.meta.env.BASE_URL}img/e4u-logo.svg`} width={300}/>
             </div>
         </div>
             <div className={kcClsx("kcFormCardClass")}>
